@@ -1,0 +1,121 @@
+body{
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin: 0 0 20px 0;
+    font-size: 2.8em;
+}
+
+p{
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0;
+    line-height: 25px;
+}
+
+img{
+    margin-bottom: 25px;
+}
+
+button{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 150px;
+    height: 50px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    margin: 20px 0 0 10px;
+    padding: 10px;
+    border: 2px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+/*---------------------------------------------------------*/
+
+
+.container{
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card{
+    width: 225px;
+    padding: 50px;
+}
+.sedans{
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+.sedan-button{
+    color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    background: hsl(184, 100%, 22%);
+}
+
+.suv-button{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+.luxury-button{
+    color: hsl(179, 100%, 13%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/*---------------------------------------------------------*/
+
+@media(min-width: 1080px){
+
+    main{
+        height: 98vh;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card{
+        width: 210px;
+        margin: auto;
+    }
+
+    .sedans{
+        border-radius: 10px 0 0 10px;
+    }
+
+    .luxury{
+        border-radius: 0 10px 10px 0;
+    }
+}
