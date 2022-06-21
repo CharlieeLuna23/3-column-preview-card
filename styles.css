@@ -118,4 +118,8 @@ button:hover{
     .luxury{
         border-radius: 0 10px 10px 0;
     }
+    button{
+        margin-top: 80px;
+    }
+}
 }
